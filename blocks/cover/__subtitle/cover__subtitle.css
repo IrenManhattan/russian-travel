@@ -1,20 +1,20 @@
-.place__link {
+.cover__subtitle {
+  max-width: 360px;
+  margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
+  text-align: center;
   color: #FFFFFF;
-  transition: opacity .3s ease;
-}
-
-.place__link:hover {
-  opacity: .8;
+  z-index: 2;
 }
 
 @media screen and (max-width: 767px) {
-  .place__link {
-    padding: 0 16px;
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 1.14;
   }
 }
